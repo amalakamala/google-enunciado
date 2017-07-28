@@ -1,0 +1,17 @@
+@mixin elHr{
+	border-top: 4px solid #356DF1;
+}
+
+@mixin transparente{
+	background-color: transparent;
+   	border-color: transparent;
+}
+
+@mixin titHcuatro{
+	font-size: 20px;
+}
+
+@mixin cita{
+	font-family: 'Inconsolata', monospace;
+	color: #737373;
+}
