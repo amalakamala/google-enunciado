@@ -22,13 +22,12 @@ nav{
 			font-weight: 200; 
 			font-size: 16px;
 		}
-
 		p{
 			font-weight: 200; 
 			font-size: 13px;			
 		}
 		.cit{
-			@include cita();
+			@include cita($gris);
 		}
 	}
 	hr{
@@ -38,14 +37,14 @@ nav{
 
 .newsfeed{
 	.cit{
-		@include cita();
+		@include cita($gris);
 	}
 	.text-caja-newsfeed{
-		background-color:#EDF0F1;
+		background-color:$colorCaja;
 		padding: 15px 30px;
 		.text-caja{
 			.link{
-				color: #356DF1;
+				color: $blue;
 			}
 		}
 	}
@@ -61,10 +60,10 @@ nav{
 	h4{
 		font-size: 22px;
 		margin-bottom: 5px;
-	}
-	
+	}	
 	img{
 		float: left;
+		margin-bottom:20px;
 	}
 	h6{
 		padding-top: 10px;
@@ -72,7 +71,7 @@ nav{
 	
 	.cit{
 		margin: 5px 0;
-		@include cita();
+		@include cita($gris);
 	}
 }
 
@@ -89,8 +88,7 @@ footer{
 		}
 		ul{
 			padding-left: 0;
-			padding-right: 20px;
-			
+			padding-right: 20px;			
 			list-style:none;
 			float: left;
 		}

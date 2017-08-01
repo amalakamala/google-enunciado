@@ -5817,14 +5817,12 @@ nav .navbar-default {
   font-weight: 200;
   font-size: 13px; }
 .method .text-method .cit {
-  font-family: 'Inconsolata', monospace;
-  color: #737373; }
+  font-family: 'Inconsolata', monospace; }
 .method hr {
   border-top: 4px solid #356DF1; }
 
 .newsfeed .cit {
-  font-family: 'Inconsolata', monospace;
-  color: #737373; }
+  font-family: 'Inconsolata', monospace; }
 .newsfeed .text-caja-newsfeed {
   background-color: #EDF0F1;
   padding: 15px 30px; }
@@ -5839,13 +5837,13 @@ nav .navbar-default {
   font-size: 22px;
   margin-bottom: 5px; }
 .method img {
-  float: left; }
+  float: left;
+  margin-bottom: 20px; }
 .method h6 {
   padding-top: 10px; }
 .method .cit {
   margin: 5px 0;
-  font-family: 'Inconsolata', monospace;
-  color: #737373; }
+  font-family: 'Inconsolata', monospace; }
 
 footer {
   padding: 30px 0; }
